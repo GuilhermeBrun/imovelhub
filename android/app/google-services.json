@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "804490421349",
+    "firebase_url": "https://imovelhub-db7da-default-rtdb.firebaseio.com",
+    "project_id": "imovelhub-db7da",
+    "storage_bucket": "imovelhub-db7da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804490421349:android:51c04c4d5144737b0d928c",
+        "android_client_info": {
+          "package_name": "com.example.imovelhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw3qu91Stb7oxquqvCFgP8qkagEh3UC_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804490421349:android:835a69dcecb73e490d928c",
+        "android_client_info": {
+          "package_name": "com.imovelhub.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw3qu91Stb7oxquqvCFgP8qkagEh3UC_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
