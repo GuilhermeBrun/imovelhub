@@ -6,11 +6,17 @@ import 'custom_elevated_button.dart';
 class PropertyCard extends StatelessWidget {
   final String? imageUrl;
   final String? status;
+  final String title;
+  final String address;
+  final String inscricao;
 
   const PropertyCard({
     super.key,
     this.imageUrl,
     this.status,
+    required this.title,
+    required this.address,
+    required this.inscricao,
   });
 
   @override
@@ -86,18 +92,19 @@ class PropertyCard extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Text(
-                  'MELGACO, BARAO DE Complemento: COMP DE ACOES',
-                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+                Text(
+                  address,
+                  style: const TextStyle(
+                      fontSize: 14, fontWeight: FontWeight.bold),
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  'Bairro: CENTRO SUL CEP: 78.005-500',
-                  style: TextStyle(fontSize: 12, color: Colors.grey[600]),
+                  inscricao,
+                  style: TextStyle(fontSize: 14, color: Colors.grey[600]),
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  '01.5.32.023.0493.001',
+                  title,
                   style: TextStyle(fontSize: 12, color: Colors.grey[600]),
                 ),
                 const SizedBox(height: 8),
@@ -113,11 +120,10 @@ class PropertyCard extends StatelessWidget {
                         MaterialPageRoute(
                           builder: (context) => PropertyDetailsPage(
                             imageUrl: imageUrl,
-                            status: status ?? 'Status desconhecido',
-                            title:
-                                'MELGACO, BARAO DE Complemento: COMP DE ACOES',
-                            address: 'Bairro: CENTRO SUL CEP: 78.005-500',
-                            code: '01.5.32.023.0493.001',
+                            status: status,
+                            title: title,
+                            address: address,
+                            inscricao: inscricao,
                           ),
                         ),
                       );

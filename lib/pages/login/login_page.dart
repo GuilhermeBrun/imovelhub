@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:imovelhub/controllers/loginController.dart';
 import 'package:imovelhub/widgets/custom_elevated_button.dart';
-import 'package:imovelhub/widgets/custom_text_button.dart';
 import 'package:imovelhub/widgets/custom_text_field.dart';
 
 class LoginPage extends StatefulWidget {
@@ -54,17 +53,6 @@ class _LoginPageState extends State<LoginPage> {
                         icon: Icons.lock_outline,
                         obscureText: true,
                         controller: controller.senha,
-                      ),
-                      Align(
-                        alignment: Alignment.centerRight,
-                        child: CustomTextButton(
-                          text: 'Criar conta?',
-                          onPressed: () {
-                            if (controller.formKey.currentState!.validate()) {
-                              controller.registrar();
-                            }
-                          },
-                        ),
                       ),
                       const SizedBox(height: 25),
                       CustomElevatedButton(

@@ -24,12 +24,6 @@ class LoginController extends GetxController {
     isLoading.value = false;
   }
 
-  registrar() async {
-    isLoading.value = true;
-    await AuthService.to.createUser(email.text, senha.text);
-    isLoading.value = false;
-  }
-
   logout() async {
     isLoading.value = true;
     await AuthService.to.logout();

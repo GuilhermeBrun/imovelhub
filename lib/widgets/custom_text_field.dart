@@ -49,7 +49,14 @@ class CustomTextField extends StatelessWidget {
               }
               return null;
             }
-          : null,
+          : (value) {
+              if (value!.isEmpty) {
+                return 'Informa seu e-mail!';
+              } else if (!value.contains("@")) {
+                return 'E-mail inválido!';
+              }
+              return null;
+            },
     );
   }
 }

@@ -1,0 +1,57 @@
+[
+  {
+	"tributo": "IMPOSTO PREDIAL",
+	"divida": "30916909",
+	"pc": "99",
+	"pl": "8",
+	"mes": "1",
+	"ano": "2023",
+	"vencimento": "01/06/2023",
+	"principal": "R$1.245,84",
+	"total": "R$1.501,78"
+  },
+  {
+	"tributo": "IMPOSTO PREDIAL",
+	"divida": "32843209",
+	"pc": "5",
+	"pl": "8",
+	"mes": "1",
+	"ano": "2024",
+	"vencimento": "15/07/2024",
+	"principal": "R$163,23",
+	"total": "R$163,23"
+  },
+  {
+	"tributo": "IMPOSTO PREDIAL",
+	"divida": "32843209",
+	"pc": "6",
+	"pl": "8",
+	"mes": "1",
+	"ano": "2024",
+	"vencimento": "13/08/2024",
+	"principal": "R$163,23",
+	"total": "R$163,23"
+  },
+  {
+	"tributo": "IMPOSTO PREDIAL",
+	"divida": "32843209",
+	"pc": "7",
+	"pl": "8",
+	"mes": "1",
+	"ano": "2024",
+	"vencimento": "13/09/2024",
+	"principal": "R$163,23",
+	"total": "R$163,23"
+  },
+  {
+	"tributo": "IMPOSTO PREDIAL",
+	"divida": "32843209",
+	"pc": "8",
+	"pl": "8",
+	"mes": "1",
+	"ano": "2024",
+	"vencimento": "14/10/2024",
+	"principal": "R$163,23",
+	"total": "R$163,23"
+  }
+]
