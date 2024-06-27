@@ -172,6 +172,30 @@ class PropertyDetailsPageState extends State<PropertyDetailsPage> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
+                            detail.vencido
+                                ? Positioned(
+                                    top: 10,
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        borderRadius:
+                                            BorderRadius.circular(12.0),
+                                        color: Colors.red,
+                                      ),
+                                      padding: const EdgeInsets.symmetric(
+                                          horizontal: 8.0, vertical: 4.0),
+                                      margin:
+                                          const EdgeInsets.only(bottom: 8.0),
+                                      child: const Text(
+                                        'Vencido',
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 10,
+                                        ),
+                                      ),
+                                    ),
+                                  )
+                                : const SizedBox.shrink(),
                             Text('Tributo: ${detail.tributo}',
                                 style: const TextStyle(
                                     fontWeight: FontWeight.bold)),
