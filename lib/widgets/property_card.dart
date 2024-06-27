@@ -5,7 +5,6 @@ import 'custom_elevated_button.dart';
 
 class PropertyCard extends StatelessWidget {
   final String? imageUrl;
-  final String? status;
   final String title;
   final String address;
   final String inscricao;
@@ -13,7 +12,6 @@ class PropertyCard extends StatelessWidget {
   const PropertyCard({
     super.key,
     this.imageUrl,
-    this.status,
     required this.title,
     required this.address,
     required this.inscricao,
@@ -64,28 +62,13 @@ class PropertyCard extends StatelessWidget {
                         },
                       ),
               ),
-              if (status != null)
-                Positioned(
-                  top: 10,
-                  left: 10,
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(12.0),
-                      color: const Color(0xFF0000FE),
-                    ),
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 8.0, vertical: 4.0),
-                    child: Text(
-                      status!,
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 10,
-                      ),
-                    ),
-                  ),
-                ),
             ],
+          ),
+          Container(
+            height: 1,
+            width: double.infinity,
+            color: Colors.grey,
+            margin: const EdgeInsets.only(top: 10, bottom: 15),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
@@ -120,7 +103,6 @@ class PropertyCard extends StatelessWidget {
                         MaterialPageRoute(
                           builder: (context) => PropertyDetailsPage(
                             imageUrl: imageUrl,
-                            status: status,
                             title: title,
                             address: address,
                             inscricao: inscricao,

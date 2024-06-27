@@ -25,7 +25,6 @@ class HomePageState extends State<HomePage> {
   Future<List<Property>> loadProperties() async {
     final jsonString =
         await rootBundle.loadString('lib/mock/primeira_raspagem.json');
-    print(jsonString);
     final List<dynamic> jsonResponse = json.decode(jsonString);
     return jsonResponse.map((data) => Property.fromJson(data)).toList();
   }
@@ -57,7 +56,6 @@ class HomePageState extends State<HomePage> {
                   title: property.proprietario,
                   address: property.endereco,
                   inscricao: property.inscricao,
-                  status: 'Próximo ao vencimento',
                 );
               },
             );

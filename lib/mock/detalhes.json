@@ -1,0 +1,1278 @@
+[
+  {
+	"inscricao": "01.5.32.023.0493.001",
+	"total": " R$2.154,70",
+	"qtd": " 5",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "30916909",
+		"pc": "99",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2023",
+		"vencimento": "01/06/2023",
+		"principal": "R$1.245,84",
+		"total": "R$1.501,78",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32843209",
+		"pc": "5",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "15/07/2024",
+		"principal": "R$163,23",
+		"total": "R$163,23",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32843209",
+		"pc": "6",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/08/2024",
+		"principal": "R$163,23",
+		"total": "R$163,23",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32843209",
+		"pc": "7",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/09/2024",
+		"principal": "R$163,23",
+		"total": "R$163,23",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32843209",
+		"pc": "8",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "14/10/2024",
+		"principal": "R$163,23",
+		"total": "R$163,23",
+		"vencido": false
+	  }
+	]
+  },
+  {
+	"inscricao": "01.7.15.035.0255.001",
+	"total": " R$1.569,17",
+	"qtd": " 9",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32833972",
+		"pc": "ÚNICA",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$1.524,86",
+		"total": "R$1.601,11",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32833972",
+		"pc": "1",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$190,61",
+		"total": "R$200,14",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32833972",
+		"pc": "2",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "15/04/2024",
+		"principal": "R$190,61",
+		"total": "R$200,14",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32833972",
+		"pc": "3",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/05/2024",
+		"principal": "R$190,61",
+		"total": "R$198,23",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32833972",
+		"pc": "4",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/06/2024",
+		"principal": "R$190,61",
+		"total": "R$196,33",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32833972",
+		"pc": "5",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "15/07/2024",
+		"principal": "R$190,61",
+		"total": "R$190,61",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32833972",
+		"pc": "6",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/08/2024",
+		"principal": "R$190,61",
+		"total": "R$190,61",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32833972",
+		"pc": "7",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/09/2024",
+		"principal": "R$190,61",
+		"total": "R$190,61",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32833972",
+		"pc": "8",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "14/10/2024",
+		"principal": "R$190,61",
+		"total": "R$190,61",
+		"vencido": false
+	  }
+	]
+  },
+  {
+	"inscricao": "08.3.14.001.1620.001",
+	"total": " R$1.631,36",
+	"qtd": " 4",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO TERRITORIAL",
+		"divida": "32969698",
+		"pc": "5",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "15/07/2024",
+		"principal": "R$407,84",
+		"total": "R$407,84",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO TERRITORIAL",
+		"divida": "32969698",
+		"pc": "6",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/08/2024",
+		"principal": "R$407,84",
+		"total": "R$407,84",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO TERRITORIAL",
+		"divida": "32969698",
+		"pc": "7",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/09/2024",
+		"principal": "R$407,84",
+		"total": "R$407,84",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO TERRITORIAL",
+		"divida": "32969698",
+		"pc": "8",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "14/10/2024",
+		"principal": "R$407,84",
+		"total": "R$407,84",
+		"vencido": false
+	  }
+	]
+  },
+  {
+	"inscricao": "02.1.14.001.0109.001",
+	"total": " R$2.525,89",
+	"qtd": " 5",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32938792",
+		"pc": "5",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "15/07/2024",
+		"principal": "R$395,57",
+		"total": "R$395,57",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32938792",
+		"pc": "6",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/08/2024",
+		"principal": "R$395,57",
+		"total": "R$395,57",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32938792",
+		"pc": "7",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/09/2024",
+		"principal": "R$395,57",
+		"total": "R$395,57",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32938792",
+		"pc": "8",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "14/10/2024",
+		"principal": "R$395,57",
+		"total": "R$395,57",
+		"vencido": false
+	  },
+	  {
+		"tributo": "COMPLEMENTO DE IPTU",
+		"divida": "33508321",
+		"pc": "1",
+		"pl": "1",
+		"mes": "5",
+		"ano": "2024",
+		"vencimento": "14/05/2024",
+		"principal": "R$907,31",
+		"total": "R$943,61",
+		"vencido": true
+	  }
+	]
+  },
+  {
+	"inscricao": "01.4.45.059.0554.011",
+	"total": " R$4.489,49",
+	"qtd": " 6",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "31032292",
+		"pc": "99",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2023",
+		"vencimento": "19/07/2023",
+		"principal": "R$2.364,42",
+		"total": "R$2.825,36",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32958165",
+		"pc": "5",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "15/07/2024",
+		"principal": "R$413,06",
+		"total": "R$413,06",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32958165",
+		"pc": "6",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/08/2024",
+		"principal": "R$413,06",
+		"total": "R$413,06",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32958165",
+		"pc": "7",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/09/2024",
+		"principal": "R$413,06",
+		"total": "R$413,06",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32958165",
+		"pc": "8",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "14/10/2024",
+		"principal": "R$413,06",
+		"total": "R$413,06",
+		"vencido": false
+	  }
+	]
+  },
+  {
+	"inscricao": "01.4.45.059.0554.012",
+	"total": " R$6.779,12",
+	"qtd": " 11",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "31032293",
+		"pc": "99",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2023",
+		"vencimento": "01/06/2023",
+		"principal": "R$3.153,04",
+		"total": "R$3.800,77",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32958166",
+		"pc": "2",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "15/04/2024",
+		"principal": "R$413,13",
+		"total": "R$433,78",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32958166",
+		"pc": "3",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/05/2024",
+		"principal": "R$413,13",
+		"total": "R$429,65",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32958166",
+		"pc": "4",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/06/2024",
+		"principal": "R$413,13",
+		"total": "R$425,52",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32958166",
+		"pc": "5",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "15/07/2024",
+		"principal": "R$413,13",
+		"total": "R$413,13",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32958166",
+		"pc": "6",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/08/2024",
+		"principal": "R$413,13",
+		"total": "R$413,13",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32958166",
+		"pc": "7",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/09/2024",
+		"principal": "R$413,13",
+		"total": "R$413,13",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32958166",
+		"pc": "8",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "14/10/2024",
+		"principal": "R$413,13",
+		"total": "R$413,13",
+		"vencido": false
+	  }
+	]
+  },
+  {
+	"inscricao": "01.8.25.039.0066.312",
+	"total": " R$84,63",
+	"qtd": " 1",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32930149",
+		"pc": "ÚNICA",
+		"pl": "1",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$80,60",
+		"total": "R$84,63",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32930149",
+		"pc": "1",
+		"pl": "1",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$80,60",
+		"total": "R$84,63",
+		"vencido": true
+	  }
+	]
+  },
+  {
+	"inscricao": "01.8.25.039.0066.313",
+	"total": " R$84,63",
+	"qtd": " 1",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32930150",
+		"pc": "ÚNICA",
+		"pl": "1",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$80,60",
+		"total": "R$84,63",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32930150",
+		"pc": "1",
+		"pl": "1",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$80,60",
+		"total": "R$84,63",
+		"vencido": true
+	  }
+	]
+  },
+  {
+	"inscricao": "01.8.25.039.0066.314",
+	"total": " R$84,63",
+	"qtd": " 1",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32930151",
+		"pc": "ÚNICA",
+		"pl": "1",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$80,60",
+		"total": "R$84,63",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32930151",
+		"pc": "1",
+		"pl": "1",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$80,60",
+		"total": "R$84,63",
+		"vencido": true
+	  }
+	]
+  },
+  {
+	"inscricao": "01.8.25.039.0066.069",
+	"total": " R$2.397,14",
+	"qtd": " 6",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32920225",
+		"pc": "1",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$393,62",
+		"total": "R$413,30",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32920225",
+		"pc": "3",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/05/2024",
+		"principal": "R$393,62",
+		"total": "R$409,36",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32920225",
+		"pc": "5",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "15/07/2024",
+		"principal": "R$393,62",
+		"total": "R$393,62",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32920225",
+		"pc": "6",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/08/2024",
+		"principal": "R$393,62",
+		"total": "R$393,62",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32920225",
+		"pc": "7",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/09/2024",
+		"principal": "R$393,62",
+		"total": "R$393,62",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32920225",
+		"pc": "8",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "14/10/2024",
+		"principal": "R$393,62",
+		"total": "R$393,62",
+		"vencido": false
+	  }
+	]
+  },
+  {
+	"inscricao": "08.3.14.001.1620.001",
+	"total": " R$1.631,36",
+	"qtd": " 4",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO TERRITORIAL",
+		"divida": "32969698",
+		"pc": "5",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "15/07/2024",
+		"principal": "R$407,84",
+		"total": "R$407,84",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO TERRITORIAL",
+		"divida": "32969698",
+		"pc": "6",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/08/2024",
+		"principal": "R$407,84",
+		"total": "R$407,84",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO TERRITORIAL",
+		"divida": "32969698",
+		"pc": "7",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/09/2024",
+		"principal": "R$407,84",
+		"total": "R$407,84",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO TERRITORIAL",
+		"divida": "32969698",
+		"pc": "8",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "14/10/2024",
+		"principal": "R$407,84",
+		"total": "R$407,84",
+		"vencido": false
+	  }
+	]
+  },
+  {
+	"inscricao": "01.7.15.035.0084.001",
+	"total": " R$4.088,69",
+	"qtd": " 11",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "30998931",
+		"pc": "99",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2023",
+		"vencimento": "19/09/2023",
+		"principal": "R$1.226,08",
+		"total": "R$1.439,40",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32924940",
+		"pc": "ÚNICA",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$2.570,33",
+		"total": "R$2.698,85",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32924940",
+		"pc": "1",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$321,29",
+		"total": "R$337,36",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32924940",
+		"pc": "2",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "15/04/2024",
+		"principal": "R$321,29",
+		"total": "R$337,36",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32924940",
+		"pc": "3",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/05/2024",
+		"principal": "R$321,29",
+		"total": "R$334,15",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32924940",
+		"pc": "4",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/06/2024",
+		"principal": "R$321,29",
+		"total": "R$330,93",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32924940",
+		"pc": "5",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "15/07/2024",
+		"principal": "R$321,29",
+		"total": "R$321,29",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32924940",
+		"pc": "6",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/08/2024",
+		"principal": "R$321,29",
+		"total": "R$321,29",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32924940",
+		"pc": "7",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/09/2024",
+		"principal": "R$321,29",
+		"total": "R$321,29",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32924940",
+		"pc": "8",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "14/10/2024",
+		"principal": "R$321,29",
+		"total": "R$321,29",
+		"vencido": false
+	  }
+	]
+  },
+  {
+	"inscricao": "01.8.11.027.0236.001",
+	"total": " R$1.638,96",
+	"qtd": " 4",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32758488",
+		"pc": "5",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "15/07/2024",
+		"principal": "R$409,74",
+		"total": "R$409,74",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32758488",
+		"pc": "6",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/08/2024",
+		"principal": "R$409,74",
+		"total": "R$409,74",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32758488",
+		"pc": "7",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/09/2024",
+		"principal": "R$409,74",
+		"total": "R$409,74",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32758488",
+		"pc": "8",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "14/10/2024",
+		"principal": "R$409,74",
+		"total": "R$409,74",
+		"vencido": false
+	  }
+	]
+  },
+  {
+	"inscricao": "01.7.15.035.0094.001",
+	"total": " R$11,89",
+	"qtd": " 1",
+	"parcelas": []
+  },
+  {
+	"inscricao": "01.7.15.035.0229.001",
+	"total": " R$890,53",
+	"qtd": " 5",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32901702",
+		"pc": "5",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "15/07/2024",
+		"principal": "R$219,66",
+		"total": "R$219,66",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32901702",
+		"pc": "6",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/08/2024",
+		"principal": "R$219,66",
+		"total": "R$219,66",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32901702",
+		"pc": "7",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/09/2024",
+		"principal": "R$219,66",
+		"total": "R$219,66",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32901702",
+		"pc": "8",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "14/10/2024",
+		"principal": "R$219,66",
+		"total": "R$219,66",
+		"vencido": false
+	  }
+	]
+  },
+  {
+	"inscricao": "01.7.15.035.0239.001",
+	"total": " R$3.000,17",
+	"qtd": " 11",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "30975617",
+		"pc": "99",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2023",
+		"vencimento": "19/06/2023",
+		"principal": "R$1.225,21",
+		"total": "R$1.476,90",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32901703",
+		"pc": "ÚNICA",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$1.467,75",
+		"total": "R$1.541,14",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32901703",
+		"pc": "1",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$183,47",
+		"total": "R$192,64",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32901703",
+		"pc": "2",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "15/04/2024",
+		"principal": "R$183,47",
+		"total": "R$192,64",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32901703",
+		"pc": "3",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/05/2024",
+		"principal": "R$183,47",
+		"total": "R$190,81",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32901703",
+		"pc": "4",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/06/2024",
+		"principal": "R$183,47",
+		"total": "R$188,97",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32901703",
+		"pc": "5",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "15/07/2024",
+		"principal": "R$183,47",
+		"total": "R$183,47",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32901703",
+		"pc": "6",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/08/2024",
+		"principal": "R$183,47",
+		"total": "R$183,47",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32901703",
+		"pc": "7",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/09/2024",
+		"principal": "R$183,47",
+		"total": "R$183,47",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32901703",
+		"pc": "8",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "14/10/2024",
+		"principal": "R$183,47",
+		"total": "R$183,47",
+		"vencido": false
+	  }
+	]
+  },
+  {
+	"inscricao": "01.8.25.039.0066.313",
+	"total": " R$84,63",
+	"qtd": " 1",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32930150",
+		"pc": "ÚNICA",
+		"pl": "1",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$80,60",
+		"total": "R$84,63",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32930150",
+		"pc": "1",
+		"pl": "1",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$80,60",
+		"total": "R$84,63",
+		"vencido": true
+	  }
+	]
+  },
+  {
+	"inscricao": "01.8.11.027.0236.063",
+	"total": " R$ 0,00",
+	"qtd": " 0",
+	"parcelas": [
+	]
+  },
+  {
+	"inscricao": "01.8.11.027.0236.064",
+	"total": " R$ 0,00",
+	"qtd": " 0",
+	"parcelas": [
+	]
+  },
+  {
+	"inscricao": "01.8.11.027.0236.068",
+	"total": " R$80,89",
+	"qtd": " 2",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "30943359",
+		"pc": "99",
+		"pl": "1",
+		"mes": "1",
+		"ano": "2023",
+		"vencimento": "01/06/2023",
+		"principal": "R$2,73",
+		"total": "R$3,29",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32869588",
+		"pc": "ÚNICA",
+		"pl": "1",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$73,90",
+		"total": "R$77,60",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32869588",
+		"pc": "1",
+		"pl": "1",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$73,90",
+		"total": "R$77,60",
+		"vencido": true
+	  }
+	]
+  },
+  {
+	"inscricao": "01.8.11.027.0236.069",
+	"total": " R$77,60",
+	"qtd": " 1",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32869589",
+		"pc": "ÚNICA",
+		"pl": "1",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$73,90",
+		"total": "R$77,60",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32869589",
+		"pc": "1",
+		"pl": "1",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$73,90",
+		"total": "R$77,60",
+		"vencido": true
+	  }
+	]
+  },
+  {
+	"inscricao": "01.8.11.027.0236.070",
+	"total": " R$77,60",
+	"qtd": " 1",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32869590",
+		"pc": "ÚNICA",
+		"pl": "1",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$73,90",
+		"total": "R$77,60",
+		"vencido": true
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32869590",
+		"pc": "1",
+		"pl": "1",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "03/04/2024",
+		"principal": "R$73,90",
+		"total": "R$77,60",
+		"vencido": true
+	  }
+	]
+  },
+  {
+	"inscricao": "01.8.11.027.0236.003",
+	"total": " R$1.288,44",
+	"qtd": " 7",
+	"parcelas": [
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32863408",
+		"pc": "5",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "15/07/2024",
+		"principal": "R$312,89",
+		"total": "R$312,89",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32863408",
+		"pc": "6",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/08/2024",
+		"principal": "R$312,89",
+		"total": "R$312,89",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32863408",
+		"pc": "7",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "13/09/2024",
+		"principal": "R$312,89",
+		"total": "R$312,89",
+		"vencido": false
+	  },
+	  {
+		"tributo": "IMPOSTO PREDIAL",
+		"divida": "32863408",
+		"pc": "8",
+		"pl": "8",
+		"mes": "1",
+		"ano": "2024",
+		"vencimento": "14/10/2024",
+		"principal": "R$312,89",
+		"total": "R$312,89",
+		"vencido": false
+	  }
+	]
+  }
+]

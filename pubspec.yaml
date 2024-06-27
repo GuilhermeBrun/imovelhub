@@ -39,6 +39,7 @@ dependencies:
   firebase_core: ^3.1.0
   cloud_firestore: ^5.0.1
   get: ^4.6.6
+  intl: ^0.17.0
 
 dev_dependencies:
   flutter_test:
@@ -64,7 +65,7 @@ flutter:
 
   assets:
     - assets/images/logo.png
-    - lib/mock/exemplo_detalhamento.json
+    - lib/mock/detalhes.json
     - lib/mock/primeira_raspagem.json
 
   # An image asset can refer to one or more resolution-specific "variants", see

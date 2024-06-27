@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:imovelhub/models/debt_detail_model.dart';
 import 'package:imovelhub/widgets/custom_app_bar.dart';
+import 'package:intl/intl.dart';
 
 class PropertyDetailsPage extends StatefulWidget {
   final String? imageUrl;
-  final String? status;
   final String title;
   final String address;
   final String inscricao;
@@ -15,7 +15,6 @@ class PropertyDetailsPage extends StatefulWidget {
   const PropertyDetailsPage({
     super.key,
     required this.imageUrl,
-    required this.status,
     required this.title,
     required this.address,
     required this.inscricao,
@@ -26,7 +25,7 @@ class PropertyDetailsPage extends StatefulWidget {
 }
 
 class PropertyDetailsPageState extends State<PropertyDetailsPage> {
-  late Future<List<DebtDetail>> futureDebtDetails;
+  late Future<PropertyDebt?> futureDebtDetails;
 
   @override
   void initState() {
@@ -34,11 +33,42 @@ class PropertyDetailsPageState extends State<PropertyDetailsPage> {
     futureDebtDetails = loadDebtDetails();
   }
 
-  Future<List<DebtDetail>> loadDebtDetails() async {
-    final jsonString =
-        await rootBundle.loadString('lib/mock/exemplo_detalhamento.json');
+  String _removePunctuation(String input) {
+    return input.replaceAll(RegExp(r'[^\w\s]'), '');
+  }
+
+  Future<PropertyDebt?> loadDebtDetails() async {
+    final jsonString = await rootBundle.loadString('lib/mock/detalhes.json');
     final List<dynamic> jsonResponse = json.decode(jsonString);
-    return jsonResponse.map((data) => DebtDetail.fromJson(data)).toList();
+    String inscricaoWithoutPunctuation = _removePunctuation(widget.inscricao);
+
+    for (var property in jsonResponse) {
+      PropertyDebt debt = PropertyDebt.fromJson(property);
+      if (_removePunctuation(debt.inscricao) == inscricaoWithoutPunctuation) {
+        debt.closestParcel = _findClosestParcel(debt.parcelas);
+        return debt;
+      }
+    }
+    return null;
+  }
+
+  DebtDetail? _findClosestParcel(List<DebtDetail> parcels) {
+    final DateTime now = DateTime.now();
+    DebtDetail? closestParcel;
+    Duration closestDuration = const Duration(days: 365 * 100);
+
+    for (var parcel in parcels) {
+      final DateFormat formatter = DateFormat('dd/MM/yyyy');
+      final DateTime dueDate = formatter.parse(parcel.vencimento);
+      final Duration difference = dueDate.difference(now);
+
+      if (difference.inDays >= 0 && difference < closestDuration) {
+        closestDuration = difference;
+        closestParcel = parcel;
+      }
+    }
+
+    return closestParcel;
   }
 
   @override
@@ -48,82 +78,92 @@ class PropertyDetailsPageState extends State<PropertyDetailsPage> {
       appBar: CustomAppBar(
         canLogout: false,
       ),
-      body: ListView(
-        padding: const EdgeInsets.all(16.0),
-        children: [
-          ClipRRect(
-            borderRadius: BorderRadius.circular(10.0),
-            child: widget.imageUrl == null
-                ? Image.asset(
-                    'assets/images/logo.png',
-                    height: 200,
-                  )
-                : Image.network(
-                    widget.imageUrl!,
-                    fit: BoxFit.cover,
-                    height: 200,
-                    width: double.infinity,
+      body: FutureBuilder<PropertyDebt?>(
+        future: futureDebtDetails,
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Center(child: CircularProgressIndicator());
+          } else if (snapshot.hasError) {
+            return Center(child: Text('Error: ${snapshot.error}'));
+          } else if (!snapshot.hasData) {
+            return const Center(child: Text('No debt details found'));
+          } else {
+            final debt = snapshot.data!;
+            final closestParcel = debt.closestParcel;
+
+            return ListView(
+              padding: const EdgeInsets.all(16.0),
+              children: [
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(10.0),
+                  child: widget.imageUrl == null
+                      ? Image.asset(
+                          'assets/images/logo.png',
+                          height: 200,
+                        )
+                      : Image.network(
+                          widget.imageUrl!,
+                          fit: BoxFit.cover,
+                          height: 200,
+                          width: double.infinity,
+                        ),
+                ),
+                const SizedBox(height: 16.0),
+                Container(
+                  height: 1,
+                  width: double.infinity,
+                  color: Colors.grey,
+                  margin: const EdgeInsets.only(top: 10, bottom: 15),
+                ),
+                Text(
+                  closestParcel != null
+                      ? 'Próximo vencimento em: ${closestParcel.vencimento}'
+                      : '',
+                  style: const TextStyle(
+                    color: Colors.blue,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 14,
                   ),
-          ),
-          const SizedBox(height: 16.0),
-          Text(
-            widget.status ?? '',
-            style: const TextStyle(
-              color: Colors.blue,
-              fontWeight: FontWeight.bold,
-              fontSize: 14,
-            ),
-          ),
-          const SizedBox(height: 8.0),
-          Text(
-            widget.title,
-            style: const TextStyle(
-              fontSize: 24,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          const SizedBox(height: 8.0),
-          Text(
-            widget.address,
-            style: const TextStyle(
-              fontSize: 16,
-              color: Colors.grey,
-            ),
-          ),
-          const SizedBox(height: 8.0),
-          Text(
-            widget.inscricao,
-            style: const TextStyle(
-              fontSize: 16,
-              color: Colors.grey,
-            ),
-          ),
-          const SizedBox(height: 16.0),
-          const Text(
-            'Detalhes da Dívida',
-            style: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          const SizedBox(height: 8.0),
-          FutureBuilder<List<DebtDetail>>(
-            future: futureDebtDetails,
-            builder: (context, snapshot) {
-              if (snapshot.connectionState == ConnectionState.waiting) {
-                return const Center(child: CircularProgressIndicator());
-              } else if (snapshot.hasError) {
-                return Center(child: Text('Error: ${snapshot.error}'));
-              } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
-                return const Center(child: Text('No debt details found'));
-              } else {
-                final debtDetails = snapshot.data!;
-                return ListView.builder(
+                ),
+                const SizedBox(height: 8.0),
+                Text(
+                  widget.address,
+                  style: const TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                const SizedBox(height: 8.0),
+                Text(
+                  widget.title,
+                  style: const TextStyle(
+                    fontSize: 16,
+                    color: Colors.grey,
+                  ),
+                ),
+                const SizedBox(height: 8.0),
+                Text(
+                  widget.inscricao,
+                  style: const TextStyle(
+                    fontSize: 16,
+                    color: Colors.grey,
+                  ),
+                ),
+                const SizedBox(height: 16.0),
+                const Text(
+                  'Detalhes da Dívida',
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                const SizedBox(height: 8.0),
+                ListView.builder(
                   shrinkWrap: true,
                   physics: const NeverScrollableScrollPhysics(),
-                  itemCount: debtDetails.length,
+                  itemCount: debt.parcelas.length,
                   itemBuilder: (context, index) {
-                    final detail = debtDetails[index];
+                    final detail = debt.parcelas[index];
                     return Card(
                       color: Colors.grey[200],
                       margin: const EdgeInsets.symmetric(vertical: 8.0),
@@ -148,11 +188,11 @@ class PropertyDetailsPageState extends State<PropertyDetailsPage> {
                       ),
                     );
                   },
-                );
-              }
-            },
-          ),
-        ],
+                ),
+              ],
+            );
+          }
+        },
       ),
     );
   }
